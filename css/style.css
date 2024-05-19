@@ -148,5 +148,14 @@ span {
   .foto009 {
     display: none;
   }
+
+  .marca01 {
+    width: 300px;
+    height: 100px;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
 }
 
