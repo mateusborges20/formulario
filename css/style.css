@@ -64,6 +64,7 @@ button {
   color: #351F05;
   margin-bottom: 20px;
   border-radius: 5px;
+  margin: 0px;
 }
 
 a {
@@ -108,22 +109,43 @@ span {
     justify-items: center;
   }
 
-  .marca01 {
-    width: 400px;
+  .marca-foto{
+    width: 200px;
     height: 100px;
   }
 }
 
-@media (max-width:578px) {
+@media (max-width:650px) {
   input ,button{
-    width: 450px;
+    width: 200px;
   }
+
+  .marca-foto {
+    width: 200px;
+    height: 200px;
+  }
+
 
   a{
     width: 450px;
     text-align: left;
   }
+
 }
+
+
+@media (max-width:428px) {
+  .foto009 {
+    display: none;
+  }
+
+  .segunda-parte {
+    padding: 30px 25px;
+  }
+
+}
+
+
 
 @media (max-width:330px) {
   .foto009 {
@@ -143,19 +165,3 @@ span {
     color: #A5A5A5;
   }
 }
-
-@media (max-width:428px) {
-  .foto009 {
-    display: none;
-  }
-
-  .marca01 {
-    width: 300px;
-    height: 100px;
-  }
-
-  button {
-    margin-bottom: 10px;
-  }
-}
-
